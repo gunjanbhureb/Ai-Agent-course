@@ -37,15 +37,6 @@ https://static.thenounproject.com/png/3468363-512.png
 2) Add the secret to `.env`
 3) Pick an arbitrary username and password and fill in the `CHAINLIT_USERNAME` and `CHAINLIT_PASSWORD` values in `.env`
 
-## Deployment
-Here is the command:
-```
-chainlit run chatbot/4_authentication.py --port 10000 --host 0.0.0.0
-```
-
-## AgentBuilder
-
-* [The AgentBuilder UI](https://platform.openai.com/agent-builder)
 
 ### Datasets for the File Search Tool
 * [calorie_database.txt](https://nutrition-datasets.s3.amazonaws.com/calorie_database.txt)
